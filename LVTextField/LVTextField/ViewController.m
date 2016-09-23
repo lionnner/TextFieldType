@@ -26,7 +26,7 @@
     [self.view addSubview:_textField];
     
     
-    LVTextField *textField = [[LVTextField alloc] initWithFrame:CGRectMake(10, 200, 300, 40) LVTextFieldType:LVTextFieldTypeMoney limit:6];
+    LVTextField *textField = [[LVTextField alloc] initWithFrame:CGRectMake(10, 200, 300, 40) LVTextFieldType:LVTextFieldTypeCountNonZeroFront limit:10];
     textField.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:textField];
 }
